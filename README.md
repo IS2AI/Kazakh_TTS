@@ -9,7 +9,7 @@ Our code builds upon [ESPnet](https://github.com/espnet/espnet), and requires pr
 cd espnet/egs2
 git clone https://github.com/IS2AI/Kazakh_TTS.git
 ```
-Go to Kazakh_TTS/asr1 folder and create links to the dependencies:
+Go to Kazakh_TTS/tts1 folder and create links to the dependencies:
 ```
 ln -s ../../TEMPLATE/tts1/path.sh .
 ln -s ../../TEMPLATE/asr1/pyscripts .
@@ -32,7 +32,7 @@ For example `db_root=/home/datasets/ISSAI_KazakhTTS/M1_Iseke/`
 To train the models, run the script `./run.sh` inside `KazakhTTS/tts1/` folder. GPU and RAM specifications can be found in the configuration (`conf/`) folder.
 
 ```
-./run.sh --stage 1 --stop_stage 6 --train_config=conf/train.yaml 
+./run.sh --stage 1 --stop_stage 6 --train_config conf/train.yaml 
 ```
 If you would like to train fastspeech/transformer models, change `train_config=conf/train.yaml` accordingly. The detailed description of each stage are documented in ESPNet's repository. 
 
