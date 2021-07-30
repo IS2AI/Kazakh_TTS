@@ -21,7 +21,7 @@ ln -s ../../../tools/kaldi/egs/wsj/s5/utils .
 
 ## Downloading the dataset
  
-Download KazakhTTS dataset and untar in the directory of your choice. Specify the path to the dataset inside `KazakhTTS/tts1/local/data.sh` script:
+Download [KazakhTTS dataset](https://issai.nu.edu.kz/tts-eng/) and untar in the directory of your choice. Specify the path to the dataset inside `KazakhTTS/tts1/local/data.sh` script:
 ```
 db_root=/path-to-speaker-folder
 ```
