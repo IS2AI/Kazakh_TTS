@@ -1,3 +1,4 @@
+<!-- #region -->
 # KazakhTTS RECIPE
 
 This is the recipe of Kazakh text-to-speech model based on KazakhTTS corpus.
@@ -21,11 +22,11 @@ ln -s ../../../tools/kaldi/egs/wsj/s5/utils .
 
 ## Downloading the dataset
  
-Download [KazakhTTS dataset](https://issai.nu.edu.kz/tts-eng/) and untar in the directory of your choice. Specify the path to the dataset inside `KazakhTTS/tts1/local/data.sh` script:
+Download [KazakhTTS dataset](https://issai.nu.edu.kz/tts-eng/) and untar in the directory of your choice. Specify the path to the dataset directory (where Audio/Transcripts dirs are located) inside `KazakhTTS/tts1/local/data.sh` script:
 ```
 db_root=/path-to-speaker-folder
 ```
-For example `db_root=/home/datasets/ISSAI_KazakhTTS/M1_Iseke/`
+For example `db_root=/home/datasets/ISSAI_KazakhTTS/M1/Books`
 
 ## Training
 
@@ -36,23 +37,6 @@ To train the models, run the script `./run.sh` inside `KazakhTTS/tts1/` folder. 
 ```
 If you would like to train fastspeech/transformer models, change `train_config=conf/train.yaml` accordingly. The detailed description of each stage are documented in ESPNet's repository. 
 
-## Pretrained Models
-
-If you want to use pretrained models, download them from the links below and unzip inside `KazakhTTS/tts1/` folder.
-
-### kaztts_male1_tacotron2_train.loss.ave
-- https://issai.nu.edu.kz/wp-content/uploads/2021/04/kaztts_male1_tacotron2_train.loss.ave.zip
-
-### kaztts_female1_tacotron2_train.loss.ave
-- https://issai.nu.edu.kz/wp-content/uploads/2021/04/kaztts_female1_tacotron2_train.loss.ave.zip
-
-You would also need the pre-trained vocoder to convert generated mel-spectrogram to wav. This repository used [ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) to train the vocoders on the same KazakhTTS corpus.
-
-### parallelwavegan_male1_checkpoint
-- https://issai.nu.edu.kz/wp-content/uploads/2021/04/parallelwavegan_male1_checkpoint.zip
-
-### parallelwavegan_female1_checkpoint
-- https://issai.nu.edu.kz/wp-content/uploads/2021/04/parallelwavegan_female1_checkpoint.zip
 
 ## Speech synthesis
 
@@ -72,3 +56,15 @@ python synthesize.py --text "бүгінде өңірде тағы бес жоб�
 ```
 The generated file will be saved in `tts1/synthesized_wavs` folder.
 
+## Citation
+```
+@inproceedings{mussakhojayeva21_interspeech,
+  author={Saida Mussakhojayeva and Aigerim Janaliyeva and Almas Mirzakhmetov and Yerbolat Khassanov and Huseyin Atakan Varol},
+  title={{KazakhTTS: An Open-Source Kazakh Text-to-Speech Synthesis Dataset}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={2786--2790},
+  doi={10.21437/Interspeech.2021-2124}
+}
+```
+<!-- #endregion -->

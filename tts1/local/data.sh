@@ -24,7 +24,7 @@ fi
 . ./path.sh || exit 1;
 . ./cmd.sh || exit 1;
 
-db_root=/home/datasets/ISSAI_KazakhTTS/M1_Iseke
+db_root=/home/KazakhTTS/M1/Books
 
 train_set=tr_no_dev
 train_dev=dev
