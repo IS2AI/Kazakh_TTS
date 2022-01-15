@@ -1,7 +1,7 @@
 <!-- #region -->
 # KazakhTTS RECIPE
 
-This is the recipe of Kazakh text-to-speech model based on KazakhTTS corpus.
+This is the recipe of Kazakh text-to-speech model based on KazakhTTS and KazakhTTS2 corpora.
 
 ## Setup and Requirements 
 
