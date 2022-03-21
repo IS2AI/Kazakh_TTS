@@ -37,6 +37,42 @@ To train the models, run the script `./run.sh` inside `KazakhTTS/tts1/` folder. 
 ```
 If you would like to train fastspeech/transformer models, change `train_config=conf/train.yaml` accordingly. The detailed description of each stage are documented in ESPNet's repository. 
 
+## Pretrained models
+
+### kaztts_female1_tacotron2_train.loss.ave
+- https://issai.nu.edu.kz/wp-content/uploads/2022/03/kaztts_female1_tacotron2_train.loss.ave.zip
+
+### kaztts_female2_tacotron2_train.loss.ave
+- https://issai.nu.edu.kz/wp-content/uploads/2022/03/kaztts_female2_tacotron2_train.loss.ave.zip
+
+### kaztts_female3_tacotron2_train.loss.ave
+- https://issai.nu.edu.kz/wp-content/uploads/2022/03/kaztts_female3_tacotron2_train.loss.ave.zip
+
+### kaztts_male1_tacotron2_train.loss.ave
+- https://issai.nu.edu.kz/wp-content/uploads/2022/03/kaztts_male1_tacotron2_train.loss.ave.zip
+
+### kaztts_male2_tacotron2_train.loss.ave
+- https://issai.nu.edu.kz/wp-content/uploads/2022/03/kaztts_male2_tacotron2_train.loss.ave.zip
+
+
+## Pretrained vocoders
+
+### parallelwavegan_female1_checkpoint
+- https://issai.nu.edu.kz/wp-content/uploads/2022/03/parallelwavegan_female1_checkpoint.zip
+
+### parallelwavegan_female2_checkpoint
+- https://issai.nu.edu.kz/wp-content/uploads/2022/03/parallelwavegan_female2_checkpoint.zip
+
+### parallelwavegan_female3_checkpoint
+- https://issai.nu.edu.kz/wp-content/uploads/2022/03/parallelwavegan_female3_checkpoint.zip
+
+### parallelwavegan_male1_checkpoint
+- https://issai.nu.edu.kz/wp-content/uploads/2022/03/parallelwavegan_male1_checkpoint.zip
+
+### parallelwavegan_male2_checkpoint
+- https://issai.nu.edu.kz/wp-content/uploads/2022/03/parallelwavegan_male2_checkpoint.zip
+
+
 
 ## Speech synthesis
 
