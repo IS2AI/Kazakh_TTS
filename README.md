@@ -45,9 +45,8 @@ If you would like to train fastspeech/transformer models, change `train_config=c
 
 *ISSAI appreciates and requires attribution. An attribution should include the title of the original paper, the author, and the name of the organization under which the development of the model took place. For example:*
 
-```
-*Mussakhojayeva, S., Janaliyeva, A., Mirzakhmetov, A., Khassanov, Y., Varol, H.A. (2021) KazakhTTS: An Open-Source Kazakh Text-to-Speech Synthesis Dataset. Proc. Interspeech 2021, 2786-2790, doi: 10.21437/Interspeech.2021-2124. The Institute of Smart Systems and Artificial Intelligence (issai.nu.edu.kz), Nazarbayev University, Kazakhstan*
-```
+
+  *Mussakhojayeva, S., Janaliyeva, A., Mirzakhmetov, A., Khassanov, Y., Varol, H.A. (2021) KazakhTTS: An Open-Source Kazakh Text-to-Speech Synthesis Dataset. Proc. Interspeech 2021, 2786-2790, doi: 10.21437/Interspeech.2021-2124. The Institute of Smart Systems and Artificial Intelligence (issai.nu.edu.kz), Nazarbayev University, Kazakhstan*
 
 ### kaztts_female1_tacotron2_train.loss.ave
 - https://issai.nu.edu.kz/wp-content/uploads/2022/03/kaztts_female1_tacotron2_train.loss.ave.zip
