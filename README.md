@@ -22,7 +22,7 @@ ln -s ../../../tools/kaldi/egs/wsj/s5/utils .
 
 ## Downloading the dataset
  
-Download [KazakhTTS dataset](https://issai.nu.edu.kz/tts-eng/) and untar in the directory of your choice. Specify the path to the dataset directory (where Audio/Transcripts dirs are located) inside `KazakhTTS/tts1/local/data.sh` script:
+Download [KazakhTTS dataset](https://docs.google.com/forms/d/e/1FAIpQLSf4vlv2NAV2dA8QL2V_uQZHOUENY6SR87n_9xToSEHX5oylVA/viewform) and untar in the directory of your choice. Specify the path to the dataset directory (where Audio/Transcripts dirs are located) inside `KazakhTTS/tts1/local/data.sh` script:
 ```
 db_root=/path-to-speaker-folder
 ```
